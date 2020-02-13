@@ -3,8 +3,6 @@ tasks:
     command:
       echo "Replace me with omething that should run on every start, or just
       remove me entirely."
-  - command: sudo wasm_setup.sh  -y
-  - command: sudo download_library.sh -y
 
 image:
   file: .gitpod.Dockerfile

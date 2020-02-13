@@ -3,6 +3,11 @@ FROM gitpod/workspace-full
 USER gitpod
 
 
+
+RUN sudo wasm_setup.sh  -y
+RUN sudo download_library.sh -y
+
+
 #FROM debian:stretch AS stage_build
 
 # ------------------------------------------------------------------------------
