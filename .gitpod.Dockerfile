@@ -1,4 +1,4 @@
-FROM emscripten/emscripten-ci
+FROM gitpod/workspace-full
 
 USER gitpod
 
